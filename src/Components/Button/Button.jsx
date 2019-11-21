@@ -4,10 +4,10 @@ import { string } from 'prop-types';
 // Importing the Compiled CSS of the Button Component
 import './Button.css';
 
-const Button = ({buttonText, buttonType}) => {
+const Button = ({ buttonText, buttonType }) => {
     return (
         <>
-            <a href="#" className={`btn ${buttonType}` }>
+            <a href="#" className={ `btn ${ buttonType }` }>
                 {buttonText}
             </a>
         </>
