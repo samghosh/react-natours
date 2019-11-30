@@ -6,7 +6,11 @@ exports[`matches snapshot 1`] = `
     class="btn btn-white"
     href="#"
   >
-    Button Text
+    <span
+      data-testid="button-text"
+    >
+      Button Text
+    </span>
   </a>
 </DocumentFragment>
 `;

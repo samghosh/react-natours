@@ -8,7 +8,7 @@ const Button = ({ buttonText, buttonType }) => {
     return (
         <>
             <a href="#" className={ `btn ${ buttonType }` }>
-                {buttonText}
+                <span data-testid="button-text">{buttonText}</span>
             </a>
         </>
     )
