@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 import React from 'react';
 
-// Importing the Pages for Stiching here
-import Navigation from './Navigation/Navigation';
-
-const Home = () => {
-    return(
-        <>
-            <Navigation />
-=======
-import React from 'react'; 
+// Importing the Re-usable Components for Stiching them here
 import Header from '../Components/Header/Header';
 
 const Home = () => {
@@ -20,11 +11,10 @@ const Home = () => {
     return (
         <>
             <Header 
-                buttonText={headerButtonText}
-                HeaderPrimaryText={headerPrimaryText}
-                HeaderSubText={headerSubText}
+                buttonText={ headerButtonText }
+                HeaderPrimaryText={ headerPrimaryText }
+                HeaderSubText={ headerSubText }
             />
->>>>>>> parent of 9432730... Project Updated to suit a different portfolio
         </>
     )
 };

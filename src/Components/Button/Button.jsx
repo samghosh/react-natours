@@ -8,11 +8,7 @@ const Button = ({ buttonText, buttonType }) => {
     return (
         <>
             <a href="#" className={ `btn ${ buttonType }` }>
-<<<<<<< HEAD
-                {buttonText}
-=======
                 <span data-testid="button-text">{buttonText}</span>
->>>>>>> parent of 9432730... Project Updated to suit a different portfolio
             </a>
         </>
     )
