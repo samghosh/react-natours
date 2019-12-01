@@ -1,9 +1,12 @@
-import React from 'react'; 
+import React from 'react';
+
+// Importing the Pages for Stiching here
+import Navigation from './Navigation/Navigation';
 
 const Home = () => {
-    return (
+    return(
         <>
-            <h1>Hello World</h1> 
+            <Navigation />
         </>
     )
 };
