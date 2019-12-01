@@ -23,8 +23,7 @@ const Header = ({ headerLogo, HeaderPrimaryText, HeaderSubText, buttonText }) =>
                         <span className="heading-primary-main" data-testid='header-primary-text'>{HeaderPrimaryText}</span>
                         <span className="heading-primary-sub" data-testid='header-sub-text'>{HeaderSubText}</span>
                     </h1>
-
-                    <Button buttonText={ buttonText }></Button>
+                    <Button buttonText={ buttonText } buttonAnimated></Button>
                 </div>
             </header>
         </>

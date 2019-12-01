@@ -8,7 +8,6 @@
   border-radius: 100px;
   transition: all 0.2s;
   position: relative;
-  animation: moveInBottom 1s ease-out 0.25s;
 }
 
 .btn:hover {
@@ -39,6 +38,10 @@
   opacity: 0;
 }
 
+.btn-animated {
+  animation: moveInBottom 1s ease-out 0.25s;
+}
+
 .btn-white {
   background-color: #fff;
   color: #777;
@@ -46,16 +49,4 @@
 
 .btn-white::after {
   background-color: #fff;
-}
-
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
