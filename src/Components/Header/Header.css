@@ -38,6 +38,12 @@
   letter-spacing: 35px;
   animation: moveInLeft 1s ease-out;
 }
+@media (max-width: 600px) {
+  .header .text-box .heading-primary .heading-primary-main {
+    font-size: 5rem;
+    letter-spacing: 1rem;
+  }
+}
 .header .text-box .heading-primary .heading-primary-sub {
   display: block;
   font-size: 20px;
