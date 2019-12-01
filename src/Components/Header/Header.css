@@ -1,11 +1,6 @@
 .header {
   height: 95vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(126, 213, 111, 0.8),
-      rgba(40, 180, 133, 0.8)
-    ),
-    url("../../Assets/hero.jpg");
+  background-image: url("../../Assets/hero.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -18,9 +13,10 @@
 }
 .header .logo {
   height: 35px;
+  animation: rotateLogo 1s ease-out 0.25s;
 }
 .header .logo:hover {
-  animation: moveInRight 1s ease-out;
+  animation: moveInRight 1s ease-out 0.25s;
 }
 .header .text-box {
   position: absolute;
@@ -73,5 +69,10 @@
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+@keyframes rotateLogo {
+  50% {
+    transform: rotateY(90deg);
   }
 }
